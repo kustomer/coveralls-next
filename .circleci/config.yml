@@ -33,11 +33,11 @@ jobs:
 
       - run:
           name: Lint
-          command: npm lint
+          command: npm run lint
 
       - run:
           name: Unit tests
-          command: npm test
+          command: npm run test
 
       - deploy:
           command: |
